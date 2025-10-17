@@ -1,0 +1,43 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Environment & Configuration
+python-dotenv
+
+# AI & ML Services
+groq
+spacy
+scikit-learn
+
+# PDF Processing
+pdfplumber
+
+# Data Processing & Validation
+pydantic
+sqlalchemy
+pandas
+numpy
+
+# Security & Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+
+# File Handling
+aiofiles
+
+# Data Extraction & Validation
+email-validator
+phonenumbers
+
+# Additional Dependencies
+requests
+click
+Jinja2
+
+# AI Providers
+groq
+openai
+anthropic
+requests
