@@ -162,7 +162,7 @@ In your frontend terminal:
 
 Bash
 
-npm start
+npm run dev
 The application will open in your browser at http://localhost:3000.
 
 📜 API Endpoints
@@ -183,4 +183,5 @@ GET /match-results/: Get saved match results.
 DELETE /reset-all-data/: (DANGER) Deletes all data in the database.
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
