@@ -147,7 +147,7 @@ Bash
 cd ../frontend
 
 # Install Node.js dependencies
-npm install
+npm run dev
 3. Running the Application
 Start the Backend Server:
 In your backend terminal (with the virtual environment activated):
@@ -183,4 +183,5 @@ GET /match-results/: Get saved match results.
 DELETE /reset-all-data/: (DANGER) Deletes all data in the database.
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
