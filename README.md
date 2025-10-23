@@ -128,13 +128,13 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r requirements_optimized.txt
 
 # Download the spaCy NLP model
 python -m spacy download en_core_web_sm
 
 # Create a .env file for your API key
-touch .env
+echo. > .env
 Add your Groq API key to the .env file:
 
 GROQ_API_KEY="your_actual_groq_api_key_here"
@@ -185,4 +185,5 @@ DELETE /reset-all-data/: (DANGER) Deletes all data in the database.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 
