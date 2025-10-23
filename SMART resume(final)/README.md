@@ -154,7 +154,7 @@ In your backend terminal (with the virtual environment activated):
 
 Bash
 
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 The API will be available at http://127.0.0.1:8000.
 
 Start the Frontend Server:
@@ -185,3 +185,4 @@ DELETE /reset-all-data/: (DANGER) Deletes all data in the database.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
