@@ -162,8 +162,8 @@ In your frontend terminal:
 
 Bash
 
-npm start
-The application will open in your browser at http://localhost:3000.
+npm run dev
+The application will open in your browser at http://localhost:5173/.
 
 📜 API Endpoints
 A brief overview of the main API endpoints:
@@ -185,4 +185,5 @@ DELETE /reset-all-data/: (DANGER) Deletes all data in the database.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 
